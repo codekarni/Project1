@@ -1,0 +1,47 @@
+@font-face{src:url(cambriaz.ttf); font-family: myfont;}
+@font-face{src:url(comicbd.ttf); font-family: my;}
+@font-face{src:url(comici.ttf); font-family: font;}
+@font-face{src:url(comicz.ttf); font-family: abc;}
+@font-face{src:url(segoepr.ttf); font-family:ryt;}
+@font-face{src:url(segoesc.ttf); font-family:myt;}
+@font-face{src:url(segoescb.ttf); font-family: myq;}
+@font-face{src:url(serife.ttf); font-family:muyt;}
+@font-face{src:url(times.ttf); font-family: mypo;}
+
+body{margin:0px auto;}
+.p1{display:inline-block;}
+.o1{display:none;}
+
+.f1{width:1300px;height:80px;display:flex;overflow:scroll;}
+.i1{display:inline-block;width:200px;height:50px;background-color:green;margin:10px;font-family:my;font-size:25px;
+color:#9B59B6;border:3px #e6005c ridge;border-radius:50%;}
+
+.i2{display:block;width:340px;height:50px;background-color:yellow;margin:10px;font-family:myfont;font-size:20	px;
+color:#9B59B6;border:3px #b300b3 double;border-radius:50%;}
+
+img{width:200px;height:200px;position:relative;left:370px;top:-600px;border:3px #00cc00 dashed;margin:10px;}
+img:hover{animation:abc infinite 8s;}
+@keyframes abc{
+	0%
+	{
+				border:3px #00cc00 dashed;
+	}
+	25%
+	{
+				border:3px pink dashed;
+	}
+	50%
+	{
+			border:3px #red dashed;
+	}
+	75%
+	{
+			border:3px #e600e6 dashed;
+	}
+	100%
+	{
+		border:3px #00cc00 dashed;
+	}
+}
+.iol{display:none;}
+

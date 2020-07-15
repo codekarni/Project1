@@ -1,0 +1,57 @@
+body{background-image:url(b2.jpg);}
+div{margin:20px auto;background-color:#BC8F8F;color:white;border:2px green outset;border-radius:10px;
+box-shadow:3px 3px 50px yellow;width:500px;margin-top:100px;animation:abc 10s infinite alternate;}
+img{display:block;position:relative;margin:2px auto;top:-50px;border:3px cyan groove;width:100px;height:100px;border-radius:50%;}
+h2{margin:2px auto;color:white;position:relative;left:200px;margin-top:10px;}
+h3{margin:2px auto;color:white;position:relative;left:200px;}
+p{margin:10px;color:white;}
+.vip{display:block;position:relative;margin:2px auto;top:-150px;border:3px cyan groove;width:300px;height:300px;border-radius:50%;
+background-image:url(papa1.jpg);animation:def 50s infinite alternate;}
+.pi{margin-top:200px;}
+.paa{margin-top:-80px;}
+@keyframes abc
+{
+	0%{
+		box-shadow:3px 3px 50px yellow;
+	}
+	25%{
+		box-shadow:3px 3px 50px green;
+	}
+	50%{
+		box-shadow:3px 3px 50px red;
+	}
+	75%{
+			box-shadow:3px 3px 50px cyan;
+	}
+	100%{
+		box-shadow:3px 3px 50px brown;
+	}
+}
+@keyframes def
+{
+	0%{
+		box-shadow:3px 3px 50px yellow;
+		background-image:url(papa1.jpg);
+		border:3px red groove;
+	}
+	25%{
+		box-shadow:3px 3px 50px green;
+		background-image:url(papa2.jpg);
+		border:3px green groove;
+	}
+	50%{
+		box-shadow:3px 3px 50px red;
+		background-image:url(papa3.jpg);
+		border:3px yellow groove;
+	}
+	75%{
+			box-shadow:3px 3px 50px cyan;
+			background-image:url(papa4.jpg);
+			border:3px pink groove;
+	}
+	100%{
+		box-shadow:3px 3px 50px brown;
+		background-image:url(papa5.jpg);
+		border:3px blue groove;
+	}
+}
