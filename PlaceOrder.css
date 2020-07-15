@@ -1,0 +1,116 @@
+body{
+	margin:0;
+	padding:0;
+}
+
+section{
+	width:600px;
+	padding:10px;
+	margin:10px auto;
+	background:#e9e9e9;
+	box-sizing: border-box;
+	border-radius: 0px 10px 0px 10px;
+	box-shadow: 3px 3px 30px black;
+}
+
+section label{
+	border-bottom:#fff 3px ridge;
+	display: inline-block;
+	width:200px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: right;
+	border-left: 1px orange dotted;
+	font-size: 17px;
+	padding:7px;
+	box-sizing: border-box;
+
+}
+section span{
+	width:300px;
+	display: inline-block;
+	padding: 5px;
+	background:#999;
+}
+
+section span input[type="text"],input[type="password"],
+				input[type="number"],input[type="email"],input[type="date"],input[type="file"],select,input[list="area"]
+{
+	padding: 10px 5px;
+	background:red;
+	color:white;
+	border:none;
+	border-radius: 0px 10px 10px 0px;
+	width: 170px;
+}
+
+section input[type="radio"]
+{
+	display: none;
+}
+
+section input[type="radio"]+label
+{
+	width:30px;
+	height: 30px;
+	border:4px groove #ccc;
+	border-radius: 50%;
+	margin:10px;
+	margin-right: 50px;
+	background: #fff;
+	text-indent: 20px;
+}
+
+section input[type="radio"]:checked+label{
+	background: black;
+	border:4px inset #ccc ;
+}
+
+section input[type="checkbox"]
+{
+	display: none;
+}
+
+section input[type="checkbox"]+label
+{
+	width:30px;
+	height: 30px;
+	border:4px groove #ccc;
+	margin:10px;
+	margin-right: 50px;
+	background: #fff;
+	text-indent: 20px;
+}
+
+section input[type="checkbox"]:checked+label{
+	background: black;
+	border:4px inset #ccc ;
+}
+
+section textarea{
+	width:170px;
+	background:red;
+	color:white;
+	padding: 10px 5px;
+	height:50px;
+	box-sizing: border-box;
+	resize:none;
+	/*resize:both;
+	resize:vertical;
+	resize:horizontal;*/
+}
+
+section div input[type="submit"],input[type="reset"]
+{
+	width:170px;
+	font-weight: bold;
+	background:green;
+	color:white;
+	height:50px;
+	line-height: 30px;
+	box-sizing: border-box;
+	border: 5px outset #ccc;
+	border-radius: 0px 5px 0px 5px;
+	
+
+}

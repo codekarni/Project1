@@ -1,0 +1,37 @@
+<html>
+<head><link rel="stylesheet" type="text/css" href="managestock.css">
+<title>manager/deliveryboy login</title>
+</head>
+<body>
+<header>
+<ul>
+<a href="#a1">Manager's Login</a>
+</ul>
+<ul>
+<li><a href="#">Deliveryboy login</a></li>
+<ul>
+<li><a href="#a2">View Pending deliveries</a></li>
+<li><a href="#a3">Delivery completed</a></li>
+</ul>
+</ul>
+</header>
+<div>
+<form id="a1" action="ManagerServlet">
+<label>Username</label><span><input type="text" name="username" required></span><br>
+<label>Password</label><span><input type="text" name="password" required></span><br>
+<input type="text" name="manager" value="yes" hidden class="ki">
+<input type="submit" value="submit"><input type="reset" value="reset">
+</form>
+<form id="a2" action="ManagerServlet">
+<label>Enter Deliveryboy id</label><input type="number" name="boyid" required><br>
+<input type="text" name="pending" value="okk" hidden class="ki">
+<input type="submit" value="submit"><input type="reset" value="reset">
+</form>
+<form id="a3" action="ManagerServlet">
+<label>Enter orderid</label><input type="number" name="orderid" required><br>
+<input type="text" name="idnumber" value="done" hidden class="ki">
+<input type="submit" value="submit"><input type="reset" value="reset">
+</form>
+</div>
+</body>
+</html>

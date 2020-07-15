@@ -1,0 +1,23 @@
+body{background-image:url(b3.jpeg);}
+form{display:none;}
+a{display:block;text-decoration:none;margin:20px;padding:10px;width:100px;height:30px;background-color:#F08080;color:#00FF00;border:3px #008080 double;border-radius:15px 0px;}
+a:hover{color:#F08080;background-color:#00FF00;}
+form{width:600px;height:600px;margin:10px auto;border:3px pink outset;border-radius:15px;background-color:#EE82EE;}
+label{display:inline-block;color:yellow;background-color:#008000;width:200px;height:30px;margin:15px;padding:10px;
+border:3px red inset;border-radius:15px;font-size:20px;}
+input{display:inline-block;color:#FFEFD5;background-color:#DC143C;width:200px;height:30px;margin:15px;padding:10px;
+border:3px red inset;border-radius:15px;}
+#a1:target{display:block;}
+#a2:target{display:block;}
+#a3:target{display:block;}
+#a4:target{display:block;}
+textarea{display:inline-block;color:#FFEFD5;background-color:#DC143C;width:200px;height:50px;margin:15px;padding:10px;
+border:3px red inset;border-radius:15px;}
+.k1{position:absolute;left:50px;top:100px;}
+.k2{position:absolute;left:50px;top:200px;width:100px;height:100px;}
+.k3{position:absolute;left:50px;top:350px;}
+.k4{position:absolute;left:50px;top:450px;}
+.k5{position:absolute;left:50px;top:550px;}
+.k6{position:absolute;left:50px;}
+.po{display:none;}
+.pi{position:relative;top:-30px;}

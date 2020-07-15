@@ -1,0 +1,13 @@
+form{display:none;}
+header{display:inline-block;}
+.ko{margin:5px auto;width:820px;background-color:#E77471;overflow:hidden;box-shadow:3px 3px 50px white;}
+a{display:inline-block;width:400px;height:50px;margin:5px;text-decoration:none;color:white;background-color:black;
+font-size:20px;text-align:center;border-radius:10px 10px 0px 0px;padding:10px;box-sizing:border-box;}
+body{background-image:url(blurr.jpg);}
+label{display:inline-block;width:100px;height:50px;background-color:#FBBBB9;
+margin:10px;margin-left:2px #6F4E37;margin-bottom:2px #6F4E37;padding:10px;box-sizing:border-box;color:blue;font-weight:bold;}
+input{width:300px;height:50px;color:red;background-color:#FF00FF;position:relative;top:10px;font-size:25px;margin-left:20px;}
+#a1:target{display:block;}
+form{margin:5px auto;position:reLATIVE;left:40px;background-color:#F75D59;width:500px;height:600px;box-shadow:3px 3px 30px yellow;}
+h3{margin:5px auto;color:white;padding-left:300px;}
+h4{padding:10px;}

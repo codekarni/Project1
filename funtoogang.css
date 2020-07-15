@@ -1,0 +1,24 @@
+@font-face{src:url(cambriaz.ttf); font-family: myfont;}
+@font-face{src:url(comicbd.ttf); font-family: my;}
+@font-face{src:url(comici.ttf); font-family: font;}
+@font-face{src:url(comicz.ttf); font-family: abc;}
+@font-face{src:url(segoepr.ttf); font-family:ryt;}
+@font-face{src:url(segoesc.ttf); font-family:myt;}
+@font-face{src:url(segoescb.ttf); font-family: myq;}
+@font-face{src:url(serife.ttf); font-family:muyt;}
+@font-face{src:url(times.ttf); font-family: mypo;}
+body{background-image:url(pa.jpg);}
+h1{font-family:font;color:cyan;}
+h2{font-family:myq;color:yellow;}
+	a{text-decoration:none;display:block;width:200px;height:50px;
+	color:#00FF00;background-image:url(pa1.jpeg);border:3px green inset;
+	animation:bgf 8s alternate infinite;
+	animation-delay:1s;}
+@keyframes bgf
+{
+	0%{color:pink;}
+	25%{color:blue;}
+	50%{color:grey;}
+	75%{color:red;}
+	100%{color:#00FF00;}
+}

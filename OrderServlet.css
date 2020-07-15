@@ -1,0 +1,57 @@
+@font-face{src:url(cambriaz.ttf); font-family: myfont;}
+@font-face{src:url(comicbd.ttf); font-family: my;}
+@font-face{src:url(comici.ttf); font-family: font;}
+@font-face{src:url(comicz.ttf); font-family: abc;}
+@font-face{src:url(segoepr.ttf); font-family:ryt;}
+@font-face{src:url(segoesc.ttf); font-family:myt;}
+@font-face{src:url(segoescb.ttf); font-family: myq;}
+@font-face{src:url(serife.ttf); font-family:muyt;}
+@font-face{src:url(times.ttf); font-family: mypo;}
+
+body{background-image:url(n1.jpg);}
+a{margin:50px auto;display:block;width:300px;height:100px;border:3px #83C6C5 ridge;text-decoration:none;
+padding-left:50px;box-sizing:border-box;padding-top:15px;font-family:ryt;font-size:25px;
+border-radius:5px 20px 5px 20px;animation:abc infinite 8s;}
+@keyframes abc{
+	0%
+	{
+				font-family:mypo;
+				border:3px #00cc00 ridge;
+				color:yellow;
+	}
+	25%
+	{
+				font-family:muyt;
+				border:3px pink ridge;
+				color:red;
+	}
+	50%
+	{
+			font-family:myt;
+			border:3px #red ridge;
+			color:orange
+	}
+	75%
+	{
+		font-family:font;
+			border:3px #e600e6 ridge;
+			color:pink
+	}
+	100%
+	{
+		font-family:my;
+		color:green;
+		border:3px #00cc00 ridge;
+	}
+}
+div{position:absolute;left:510px;top:330px;color:orange;font-size:30px;width:650px;font-family:myt;}
+label{display:inline-block;width:100px;height:40px;background:orange;padding:5px;font-family:ryt;
+border:3px #bfff00 outset;color:#ff00bf;box-sizing:border-box;border-radius:5px 20px 5px 20px;}
+span{display:inline-block;width:200px;height:30px;background:green;padding:5px;margin:5px;box-sizing:border-box;}
+nav{position:absolute;top:490px;left:510px;background:pink;width:500px;}
+nav label{margin:10px;}
+.kio{display:none;}
+input[type="text"],input[type="password"]{background-color:rgb(102, 204, 0);color:yellow;border-radius:10px;}
+input[type="submit"]{background-color:#0099cc;color:pink;width:300px;height:100px;margin:10px;border:3px #83C6C5 ridge;
+font-family:ryt;font-size:25px;
+border-radius:5px 20px 5px 20px;animation:abc infinite 8s;background-image:url(n1.jpg);}	

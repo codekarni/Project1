@@ -1,0 +1,28 @@
+body{margin:2px auto;}
+header{width:200px;height:200px;margin:0px auto;border-radius:50%;background-image:url(k3.jpg);}
+p{width:600px;height:600px;margin:20px auto;animation:abc 20s infinite alternate;background-image:url(k10.jpg);}
+@keyframes abc
+{
+	0%{
+	background-image:url(k1.jpg);}
+10%{
+background-image:url(k2.jpg);}
+20%{
+background-image:url(k3.jpg);}
+30%{
+background-image:url(k4.jpg);}
+40%{
+background-image:url(k5.jpg);}
+50%{
+background-image:url(k6.jpg);}
+60%{
+background-image:url(k7.jpg);}
+70%{
+background-image:url(k8.jpg);}
+80%{
+background-image:url(k9.jpg);}
+90%{
+background-image:url(k10.jpg);}
+100%{
+background-image:url(k2.jpg);}
+}
